@@ -1,0 +1,17 @@
+{
+    "Name": "Nexus3",
+    "Version": "3.42.0",
+    "Home": "https://github.com/sonatype/docker-nexus3",
+    "Maintainer": "ysicing",
+    "GitUrl": "https://github.com/sonatype/docker-nexus3",
+    "DockerfileUrl": "https://github.com/quicklyon/nexus3-docker",
+    "DockerfileRepoBranch":"master",
+    "InstallDocUrl": "https://www.qucheng.com/app-install/install-nexus3-178.html",
+    "Docker": {
+        "Name": "nexus3",
+        "OS": "debian-11",
+        "ImageOS": "sonatype/nexus3",
+        "Repo": "https://hub.docker.com/r/easysoft/nexus3",
+        "TagUrl": "https://hub.docker.com/r/easysoft/nexus3/tags/"
+    }
+}
