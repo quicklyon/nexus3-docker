@@ -10,6 +10,7 @@ services:
       - 'data:/nexus-data'
     environment:
       # - DEBUG=1
+      # - PASSWORD=nexus4Quick0n
       - IS_CONTAINER=true
     networks:
       - net

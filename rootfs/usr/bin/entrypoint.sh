@@ -14,4 +14,6 @@ set -o pipefail
 
 print_welcome_page
 
+/usr/bin/nohup /bin/bash /usr/bin/fixpass.sh &
+
 exec /opt/sonatype/nexus/bin/nexus run

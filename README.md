@@ -1,7 +1,7 @@
 <!-- 该文档是模板生成，手动修改的内容会被覆盖，详情参见：https://github.com/quicklyon/template-toolkit -->
 # QuickOn Nexus3 应用镜像
 
-[![GitHub Workflow Status](https://github.com/quicklyon/nexus3-docker/actions/workflows/docker.yml/badge.svg)](https://github.com/quicklyon/nexus3/actions/workflows/docker.yml)
+[![GitHub Workflow Status](https://github.com/quicklyon/nexus3-docker/actions/workflows/docker.yml/badge.svg)](https://github.com/quicklyon/nexus3-docker/actions/workflows/docker.yml)
 ![Docker Pulls](https://img.shields.io/docker/pulls/easysoft/nexus3?style=flat-square)
 ![Docker Image Size](https://img.shields.io/docker/image-size/easysoft/nexus3?style=flat-square)
 ![GitHub tag](https://img.shields.io/github/v/tag/quicklyon/nexus3-docker?style=flat-square)
@@ -102,22 +102,12 @@ services:
 
 <!-- 这里写应用的【环境变量信息】 -->
 
-<!-- 示例：
+
 
 | 变量名           | 默认值        | 说明                             |
 | ---------------- | ------------- | -------------------------------- |
 | EASYSOFT_DEBUG   | false         | 是否打开调试信息，默认关闭       |
-| MYSQL_HOST       | 127.0.0.1     | MySQL 主机地址                   |
-| MYSQL_PORT       | 3306          | MySQL 端口                       |
-| MYSQL_DB         | spug          | spug 数据库名称                 |
-| MYSQL_USER       | root          | MySQL 用户名                      |
-| MYSQL_PASSWORD   | pass4Spug     | MySQL 密码                        |
-| REDIS_HOST       | 127.0.0.1     | Redis 服务地址 |
-| REDIS_PORT       | 6379          | Redis 端口 |
-| DEFAULT_ADMIN_USER| admin        | 默认管理员名称             |
-| DEFAULT_ADMIN_PASSWORD | spug.dev | 默认管理员密码 |
-
--->
+| DEFAULT_ADMIN_PASSWORD | nexus4Quick0n | 默认管理员密码 |
 
 ## 六、运行
 
@@ -141,7 +131,7 @@ docker-compose logs -f nexus3
 
 - 启动成功后，打开浏览器输入 `http://<你的IP>:8081` 访问管理后台
 - 默认用户名：`admin`
-- 首次密码：需要进入容器内部`docker exec nexus3 cat /nexus-data/admin.password`
+- 默认密码：`nexus4Quick0n`
 - [VERSION](https://github.com/quicklyon/nexus3-docker/blob/master/VERSION) 文件中详细的定义了Makefile可以操作的版本
 - [docker-compose.yml](https://github.com/quicklyon/nexus3-docker/blob/master/docker-compose.yml)
 
