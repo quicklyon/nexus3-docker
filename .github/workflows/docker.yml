@@ -21,9 +21,12 @@ jobs:
         username: ${{ secrets.DOCKER_USER }}
         password: ${{ secrets.DOCKER_PASS }}
     - name: Build and push
-      run: |
-        make build-public
-        make push-sync-tcr
+      uses: docker/build-push-action@v5
+      with:
+        push: true
+        pull: pull
+        platforms: linux/amd64,linux/arm64
+        tags: easysoft/nexus3:3.67.0-20240409
     - name: Update repo description
       uses: peter-evans/dockerhub-description@v3
       with:

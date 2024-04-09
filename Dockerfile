@@ -1,6 +1,6 @@
 ARG VERSION=latest
 
-FROM sonatype/nexus3:${VERSION}
+FROM hub.qucheng.com/app/nexus3:${VERSION}
 
 LABEL maintainer "ysicing"
 

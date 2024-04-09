@@ -55,6 +55,7 @@ Nexus3官网：[https://github.com/sonatype/docker-nexus3](https://github.com/so
 <!-- 这里是镜像的【Tag】信息，通过命令维护，详情参考：https://github.com/quicklyon/template-toolkit -->
 
 - [latest](https://github.com/sonatype/docker-nexus3/releases)
+- [3.67.0-20240409](https://github.com/sonatype/docker-nexus3/releases/tag/3.67.0)
 - [3.42.0-20221009](https://github.com/sonatype/docker-nexus3/releases/tag/3.42.0)
 
 ## 三、获取镜像
