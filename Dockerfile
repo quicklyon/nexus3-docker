@@ -1,6 +1,6 @@
-ARG VERSION=latest
+ARG VERSION=3.67.0
 
-FROM hub.qucheng.com/app/nexus3:${VERSION}
+FROM sonatypecommunity/nexus3:${VERSION}
 
 LABEL maintainer "ysicing"
 
